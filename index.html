@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Works Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffe5ec;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #ffb3c6, #ffd6e0);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 48px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    p.subtitle {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #d46a82;
+    }
+
+    .contact {
+      background: #ffdbe8;
+      padding: 40px 20px;
+      border-radius: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    form button {
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #ff9eb6;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      color: white;
+    }
+
+    form button:hover {
+      background: #ff7a9b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Works Studio</h1>
+    <p class="subtitle">Creative visuals crafted for business owners.</p>
+  </header>
+
+  <section>
+    <h2>What I Do</h2>
+    <p>Works Studio specialises in crafting clean, modern, and impactful visuals for business owners — from content creation to poster and video editing. Every design is made to help elevate your brand identity.</p>
+
+    <div class="services">
+      <div class="card">
+        <h3>Poster Design</h3>
+        <p>Professional and aesthetic poster layouts tailored for your brand, event, or product.</p>
+      </div>
+
+      <div class="card">
+        <h3>Content Creation</h3>
+        <p>Instagram, TikTok, and promotional visuals with pastel and clean design styles.</p>
+      </div>
+
+      <div class="card">
+        <h3>Video Editing</h3>
+        <p>Smooth, professional-cut edits for business promotions, reels, and ads.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project or idea? Send me a message below:</p>
+
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Works Studio — Designed with pastel aesthetics.
+  </footer>
+</body>
+</html>
